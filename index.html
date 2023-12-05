@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>E-learning Platform</title>
+</head>
+<body>
+  <header>
+    <h1>E-learning Platform</h1>
+  </header>
+  
+  <div id="content">
+    <div id="signup-login">
+      <h2>Signup or Login</h2>
+      <form id="signup-form">
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" required>
+        
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" required>
+        
+        <button type="button" onclick="signup()">Signup</button>
+      </form>
+
+      <form id="login-form">
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" required>
+        
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" required>
+        
+        <button type="button" onclick="login()">Login</button>
+      </form>
+    </div>
+
+    <div id="courses">
+      <h2>Courses</h2>
+      <table id="course-table">
+        <tr>
+          <th>Course ID</th>
+          <th>Course Name</th>
+          <th>Instructor</th>
+        </tr>
+      </table>
+    </div>
+    
+    <div id="lessons">
+      <h2>Video Lessons</h2>
+      <table id="lesson-table">
+        <tr>
+          <th>Lesson ID</th>
+          <th>Lesson Title</th>
+          <th>Video URL</th>
+        </tr>
+      </table>
+    </div>
+
+    <div id="quizzes">
+      <h2>Quizzes</h2>
+      <table id="quiz-table">
+        <tr>
+          <th>Quiz ID</th>
+          <th>Quiz Title</th>
+          <th>Questions</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 E-learning Platform</p>
+  </footer>
+
+
+
+  <div class="detail" id="detail">
+    <div class="myDetail">
+    <h1>Form</h1>
+    <p class="error">Please fill the form</p>
+    <input type="text" id="nameInput" placeholder="Enter Name">
+    <input type="number" id="idInput" placeholder="Enter id">
+    <button id="submit">Submit</button>
+</div>
+</div>
+
+<div  class="popup" id="popup">
+    <div class="records">
+        <h1>Records </h1>
+        <ul id="recordList">
+          <!-- 
+          <li class="recordListing"><div>Name:Huzaifa</div><div>Id:234 <span>score: 4</span></div></li> -->
+          <!-- <li class="recordListing">asda</li> -->
+        </ul>
+        <button id="setRecord" class="setRecord">OK</button>
+    </div>
+</div>
+<div class="blur active" id="blur">
+<div class="navbar">
+    <div class="logo">Online Quiz</div>
+    <li id="recordButton" >Records</li>
+</div>
+<div class="container">
+    <div class="quizContainer">
+       <div class="questionslist">
+    <div class="question">Question #1</div>
+    <div class="questionContainer"></div>
+    <div class="displayQuestion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, laboriosam veniam optio consequuntur quisquam nobis facilis fugiat eum, cupiditate, ipsam ratione.</div>
+      </div>
+    <div class="options">
+        <ul id="myul">
+  
+        </ul>
+      </div>
+        <div class="btn">
+        <li id="nextBtn">Next</li>
+    </div>
+    
+</div>
+</div>
+</div>
+  <script src="app.js"></script>
+</body>
+</html>
