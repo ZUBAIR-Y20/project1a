@@ -1,8 +1,8 @@
-# project1a
-# Introduction:
-"Our project is E-Learning platform for advance education and set of an interactive online services that provide by different teachers and trainers, and other involve in 
+# project E learning plateform
+#### 1. Introduction:
+Our project is `E-Learning platform` for advance education and set of an interactive online services that provide by different teachers and trainers, and other involve in 
 education with information, resources to deliver enhence education of different subjects. E-learning platform is a way of delivering digital resources of quality education."
-# PROBLEM STATEMENT:
+### 1.2. PROBLEM STATEMENT:
 "Sometimes when we study through any online platform the given services is not match the user interest and and also lack of tools and availability of less interesting subjects 
 and also those subjects from the student take interest are not available at a single platform is the main problem of any E-Learning platform."
 # SOLUTION:
